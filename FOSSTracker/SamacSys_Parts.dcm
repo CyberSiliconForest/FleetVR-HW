@@ -1,0 +1,45 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP NE555DR
+D Single Precision Timer
+K
+F http://www.ti.com/lit/ds/symlink/ne555.pdf
+$ENDCMP
+#
+$CMP W25Q80DVZPIG_TR
+D NOR Flash Serial (SPI, Dual SPI, Quad SPI) 3V/3.3V 8M-bit 1M x 8 6ns 8-Pin WSON EP Tube
+K
+F https://www.arrow.com/en/products/w25q80dvzpigtr/winbond-electronics
+$ENDCMP
+#
+$CMP TLV70330DBVR
+D 300mA Low-IQ Low-Dropout (LDO) Regulator
+K
+F http://www.ti.com/lit/gpn/tlv703
+$ENDCMP
+#
+$CMP TLV70312DBVR
+D 300mA Low-IQ Low-Dropout (LDO) Regulator
+K
+F http://www.ti.com/lit/gpn/tlv703
+$ENDCMP
+#
+$CMP DSC1001CI5-024.0000
+D Microchip Technology 150MHz MEMS Oscillator, 4-Pin CDFN, DSC1001CI5-024.0000
+K
+F https://componentsearchengine.com/Datasheets/1/DSC1001CI5-024.0000.pdf
+$ENDCMP
+#
+$CMP 1734592-8
+D FPC receptacle, 0.5mm, SMT, R/A, 12P
+K
+F http://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1734592&DocType=Customer+Drawing&DocLang=English&DocFormat=pdf&PartCntxt=1734592-8
+$ENDCMP
+#
+$CMP 1-2328702-0
+D AMP - TE CONNECTIVITY - 1-2328702-0 - CONNECTOR, FPC, R/A, 10POS, 1ROW, 0.5MM
+K
+F https://datasheet.datasheetarchive.com/originals/distributors/DKDS42/DSANUWW0052081.pdf
+$ENDCMP
+#
+#End Doc Library

@@ -1,0 +1,184 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#SamacSys ECAD Model NE555DR
+#/6648/2/2.37/8/4/Integrated Circuit
+DEF NE555DR IC 0 30 Y Y 1 F N
+F0 "IC" 1050 600 50 H V L CNN
+F1 "NE555DR" 1050 500 50 H V L CNN
+F2 "SOIC127P600X175-8N" 1050 400 50 H I L CNN
+F3 "http://www.ti.com/lit/ds/symlink/ne555.pdf" 1050 300 50 H I L CNN
+F4 "Single Precision Timer" 1050 200 50 H I L CNN "Description"
+F5 "1.75" 1050 100 50 H I L CNN "Height"
+F6 "Texas Instruments" 1050 0 50 H I L CNN "Manufacturer_Name"
+F7 "NE555DR" 1050 -100 50 H I L CNN "Manufacturer_Part_Number"
+F8 "595-NE555DR" 1050 -200 50 H I L CNN "Mouser Part Number"
+F9 "https://www.mouser.com/Search/Refine.aspx?Keyword=595-NE555DR" 1050 -300 50 H I L CNN "Mouser Price/Stock"
+F10 "1218414" 1050 -400 50 H I L CNN "RS Part Number"
+F11 "http//uk.rs-online.com/web/p/products/1218414" 1050 -500 50 H I L CNN "RS Price/Stock"
+DRAW
+X GND 1 600 -1000 200 U 50 50 0 0 B
+X TRIG 2 0 -400 200 R 50 50 0 0 B
+X OUT 3 1200 -200 200 L 50 50 0 0 B
+X ~RESET 4 0 0 200 R 50 50 0 0 B
+X CONT 5 500 600 200 D 50 50 0 0 B
+X THRES 6 0 -300 200 R 50 50 0 0 B
+X DISCH 7 0 -100 200 R 50 50 0 0 B
+X VCC 8 700 600 200 D 50 50 0 0 B
+P 5 0 1 6 200 400 1000 400 1000 -800 200 -800 200 400 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model W25Q80DVZPIG_TR
+#/1534735/247893/2.49/9/3/Integrated Circuit
+DEF W25Q80DVZPIG_TR IC 0 30 Y Y 1 F N
+F0 "IC" 1650 300 50 H V L CNN
+F1 "W25Q80DVZPIG_TR" 1650 200 50 H V L CNN
+F2 "SON127P600X500X80-9N-D" 1650 100 50 H I L CNN
+F3 "https://www.arrow.com/en/products/w25q80dvzpigtr/winbond-electronics" 1650 0 50 H I L CNN
+F4 "NOR Flash Serial (SPI, Dual SPI, Quad SPI) 3V/3.3V 8M-bit 1M x 8 6ns 8-Pin WSON EP Tube" 1650 -100 50 H I L CNN "Description"
+F5 "0.8" 1650 -200 50 H I L CNN "Height"
+F6 "454-W25Q80DVZPIGTR" 1650 -300 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/Winbond/W25Q80DVZPIG-TR?qs=qSfuJ%252Bfl%2Fd54UDvYpE%2FnJw%3D%3D" 1650 -400 50 H I L CNN "Mouser Price/Stock"
+F8 "Winbond" 1650 -500 50 H I L CNN "Manufacturer_Name"
+F9 "W25Q80DVZPIG TR" 1650 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X ~CS 1 0 0 200 R 50 50 0 0 P
+X DO_(IO1) 2 0 -100 200 R 50 50 0 0 P
+X ~WP_(IO2) 3 0 -200 200 R 50 50 0 0 P
+X GND 4 0 -300 200 R 50 50 0 0 P
+X EP 9 900 -800 200 U 50 50 0 0 P
+X VCC 8 1800 0 200 L 50 50 0 0 P
+X ~HOLD_(IO3) 7 1800 -100 200 L 50 50 0 0 P
+X CLK 6 1800 -200 200 L 50 50 0 0 P
+X DI_(IO0) 5 1800 -300 200 L 50 50 0 0 P
+P 5 0 1 6 200 100 1600 100 1600 -600 200 -600 200 100 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model TLV70330DBVR
+#/1009604/247893/2.49/5/3/Integrated Circuit
+DEF TLV70330DBVR IC 0 30 Y Y 1 F N
+F0 "IC" 850 300 50 H V L CNN
+F1 "TLV70330DBVR" 850 200 50 H V L CNN
+F2 "SOT95P280X145-5N" 850 100 50 H I L CNN
+F3 "http://www.ti.com/lit/gpn/tlv703" 850 0 50 H I L CNN
+F4 "300mA Low-IQ Low-Dropout (LDO) Regulator" 850 -100 50 H I L CNN "Description"
+F5 "1.45" 850 -200 50 H I L CNN "Height"
+F6 "595-TLV70330DBVR" 850 -300 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.com/Search/Refine.aspx?Keyword=595-TLV70330DBVR" 850 -400 50 H I L CNN "Mouser Price/Stock"
+F8 "Texas Instruments" 850 -500 50 H I L CNN "Manufacturer_Name"
+F9 "TLV70330DBVR" 850 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X IN 1 0 0 200 R 50 50 0 0 P
+X GND 2 0 -100 200 R 50 50 0 0 P
+X EN 3 0 -200 200 R 50 50 0 0 P
+X NC 4 1000 0 200 L 50 50 0 0 N
+X OUT 5 1000 -100 200 L 50 50 0 0 P
+P 5 0 1 6 200 100 800 100 800 -300 200 -300 200 100 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model TLV70312DBVR
+#/963289/247893/2.49/5/3/Integrated Circuit
+DEF TLV70312DBVR IC 0 30 Y Y 1 F N
+F0 "IC" 850 300 50 H V L CNN
+F1 "TLV70312DBVR" 850 200 50 H V L CNN
+F2 "SOT95P280X145-5N" 850 100 50 H I L CNN
+F3 "http://www.ti.com/lit/gpn/tlv703" 850 0 50 H I L CNN
+F4 "300mA Low-IQ Low-Dropout (LDO) Regulator" 850 -100 50 H I L CNN "Description"
+F5 "1.45" 850 -200 50 H I L CNN "Height"
+F6 "595-TLV70312DBVR" 850 -300 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/TLV70312DBVR?qs=YCa%2FAAYMW01YBdEVhE2SSQ%3D%3D" 850 -400 50 H I L CNN "Mouser Price/Stock"
+F8 "Texas Instruments" 850 -500 50 H I L CNN "Manufacturer_Name"
+F9 "TLV70312DBVR" 850 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X IN 1 0 0 200 R 50 50 0 0 P
+X GND 2 0 -100 200 R 50 50 0 0 P
+X EN 3 0 -200 200 R 50 50 0 0 P
+X NC 4 1000 0 200 L 50 50 0 0 N
+X OUT 5 1000 -100 200 L 50 50 0 0 P
+P 5 0 1 6 200 100 800 100 800 -300 200 -300 200 100 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model DSC1001CI5-024.0000
+#/1115368/247893/2.49/4/4/Crystal or Oscillator
+DEF DSC1001CI5-024.0000 Y 0 30 Y Y 1 F N
+F0 "Y" 1150 300 50 H V L CNN
+F1 "DSC1001CI5-024.0000" 1150 200 50 H V L CNN
+F2 "DSC1001CI50240000" 1150 100 50 H I L CNN
+F3 "https://componentsearchengine.com/Datasheets/1/DSC1001CI5-024.0000.pdf" 1150 0 50 H I L CNN
+F4 "Microchip Technology 150MHz MEMS Oscillator, 4-Pin CDFN, DSC1001CI5-024.0000" 1150 -100 50 H I L CNN "Description"
+F5 "0.9" 1150 -200 50 H I L CNN "Height"
+F6 "998-1001CI5-024.0000" 1150 -300 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.com/Search/Refine.aspx?Keyword=998-1001CI5-024.0000" 1150 -400 50 H I L CNN "Mouser Price/Stock"
+F8 "Microchip" 1150 -500 50 H I L CNN "Manufacturer_Name"
+F9 "DSC1001CI5-024.0000" 1150 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X STANDBY# 1 0 0 200 R 50 50 0 0 P
+X GND 2 0 -100 200 R 50 50 0 0 P
+X OUT 3 1300 -100 200 L 50 50 0 0 P
+X VDD 4 1300 0 200 L 50 50 0 0 P
+P 5 0 1 6 200 100 1100 100 1100 -200 200 -200 200 100 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model 1734592-8
+#/561567/247893/2.49/10/4/Connector
+DEF 1734592-8 J 0 30 Y Y 1 F N
+F0 "J" 750 300 50 H V L CNN
+F1 "1734592-8" 750 200 50 H V L CNN
+F2 "17345928" 750 100 50 H I L CNN
+F3 "http://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1734592&DocType=Customer+Drawing&DocLang=English&DocFormat=pdf&PartCntxt=1734592-8" 750 0 50 H I L CNN
+F4 "FPC receptacle, 0.5mm, SMT, R/A, 12P" 750 -100 50 H I L CNN "Description"
+F5 "2" 750 -200 50 H I L CNN "Height"
+F6 "571-1734592-8" 750 -300 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/TE-Connectivity/1734592-8?qs=n3Ybsy482HFhbVwUSq7sdw%3D%3D" 750 -400 50 H I L CNN "Mouser Price/Stock"
+F8 "TE Connectivity" 750 -500 50 H I L CNN "Manufacturer_Name"
+F9 "1734592-8" 750 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X 1 1 900 0 200 L 50 50 0 0 P
+X 2 2 900 -100 200 L 50 50 0 0 P
+X 3 3 900 -200 200 L 50 50 0 0 P
+X 4 4 900 -300 200 L 50 50 0 0 P
+X 5 5 900 -400 200 L 50 50 0 0 P
+X 6 6 900 -500 200 L 50 50 0 0 P
+X 7 7 900 -600 200 L 50 50 0 0 P
+X 8 8 900 -700 200 L 50 50 0 0 P
+X 9 9 0 0 200 R 50 50 0 0 P
+X 10 10 0 -100 200 R 50 50 0 0 P
+P 5 0 1 6 200 100 700 100 700 -800 200 -800 200 100 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model 1-2328702-0
+#/1509084/247893/2.49/12/4/Connector
+DEF 1-2328702-0 J 0 30 Y Y 1 F N
+F0 "J" 850 300 50 H V L CNN
+F1 "1-2328702-0" 850 200 50 H V L CNN
+F2 "123287020" 850 100 50 H I L CNN
+F3 "https://datasheet.datasheetarchive.com/originals/distributors/DKDS42/DSANUWW0052081.pdf" 850 0 50 H I L CNN
+F4 "AMP - TE CONNECTIVITY - 1-2328702-0 - CONNECTOR, FPC, R/A, 10POS, 1ROW, 0.5MM" 850 -100 50 H I L CNN "Description"
+F5 "1.05" 850 -200 50 H I L CNN "Height"
+F6 "571-1-2328702-0" 850 -300 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/TE-Connectivity/1-2328702-0?qs=w%2Fv1CP2dgqo2Dg4sQQnZ1g%3D%3D" 850 -400 50 H I L CNN "Mouser Price/Stock"
+F8 "TE Connectivity" 850 -500 50 H I L CNN "Manufacturer_Name"
+F9 "1-2328702-0" 850 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X 1 1 1000 -900 200 L 50 50 0 0 P
+X 2 2 1000 -800 200 L 50 50 0 0 P
+X 3 3 1000 -700 200 L 50 50 0 0 P
+X 4 4 1000 -600 200 L 50 50 0 0 P
+X 5 5 1000 -500 200 L 50 50 0 0 P
+X 6 6 1000 -400 200 L 50 50 0 0 P
+X 7 7 1000 -300 200 L 50 50 0 0 P
+X 8 8 1000 -200 200 L 50 50 0 0 P
+X 9 9 1000 -100 200 L 50 50 0 0 P
+X 10 10 1000 0 200 L 50 50 0 0 P
+X MP1 MP1 0 -100 200 R 50 50 0 0 P
+X MP2 MP2 0 0 200 R 50 50 0 0 P
+P 5 0 1 6 200 100 800 100 800 -1000 200 -1000 200 100 N
+ENDDRAW
+ENDDEF
+#
+#End Library
